@@ -1,28 +1,101 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ozmeri | Home</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 40px;
-      background: #f7f7f7;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
     }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0055aa;
+      text-align: center;
+      padding: 10px 0;
+    }
+
     nav a {
+      color: white;
       margin: 0 15px;
       text-decoration: none;
-      color: #0077cc;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #ffffff, #e6f0ff);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      color: #003366;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #333;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Ozmeri!</h1>
-  <p>This website is under construction. Stay tuned!</p>
+
+  <header>
+    <h1>Ozmeri</h1>
+    <p>Your Future Starts Here</p>
+  </header>
 
   <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="contact.html">Contact</a>
   </nav>
+
+  <section class="hero">
+    <h1>Welcome to Ozmeri</h1>
+    <p>We are building something amazing. Stay tuned!</p>
+  </section>
+
+  <section class="section">
+    <h2>About Ozmeri</h2>
+    <p>Ozmeri is a platform where innovation meets simplicity. We aim to deliver exceptional services to people all over Pakistan and beyond.</p>
+  </section>
+
+  <section class="section">
+    <h2>What We Do</h2>
+    <p>We’re working on launching top-quality services and products tailored to your needs. From digital tools to real-world solutions – Ozmeri is the name to trust.</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Ozmeri. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
