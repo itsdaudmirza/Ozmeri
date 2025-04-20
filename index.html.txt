@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome to Ozmeri</title>
+  <title>Ozmeri | Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background: #f7f7f7;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #0077cc;
+    }
+  </style>
 </head>
 <body>
-  <h1>Coming Soon!</h1>
+  <h1>Welcome to Ozmeri!</h1>
   <p>This website is under construction. Stay tuned!</p>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 </body>
 </html>
